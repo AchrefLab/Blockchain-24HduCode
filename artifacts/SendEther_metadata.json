@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": "SendEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": {
+			"keccak256": "0xd2ffba09040d8b881d1f39aa9db7c84a818840aab1b1f9cad2112e7c04f4eaed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://041ca4d8387a7f85804a8d2e2f1812f0ea744f4bc3f68eccfa12ed48dcbf83cb",
+				"dweb:/ipfs/QmTeYmtKaifnasbRQuqeU53TxUggY9CwDjpP8LnPfxNUQS"
+			]
+		}
+	},
+	"version": 1
+}

@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": "SendEther"
+			"Users/macbook/Desktop/Proxyma-24HduCode/Tribu.sol": "SendEther"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": {
-			"keccak256": "0xd2ffba09040d8b881d1f39aa9db7c84a818840aab1b1f9cad2112e7c04f4eaed",
+		"Users/macbook/Desktop/Proxyma-24HduCode/Tribu.sol": {
+			"keccak256": "0x3b37f2e7484bf08395e59f78783885e648e0b5914080bcfcdee8719d3905917a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://041ca4d8387a7f85804a8d2e2f1812f0ea744f4bc3f68eccfa12ed48dcbf83cb",
-				"dweb:/ipfs/QmTeYmtKaifnasbRQuqeU53TxUggY9CwDjpP8LnPfxNUQS"
+				"bzz-raw://edb28ef6c9ea250700d67be27664e11e911eb3965ac6dde4ed273b51622b7c60",
+				"dweb:/ipfs/QmbZgDxyf6NWcuwXwwmuEAPhLu3fs3ujv7NN1knsXge8fX"
 			]
 		}
 	},

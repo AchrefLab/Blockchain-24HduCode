@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": {
+			"keccak256": "0xcef0de14b94ed34187663aefb0de2f86c0316d73570c410964e16136cec5d86a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5353ed51109b4f78b5e171b1dd61c3856f7a7b22ac22bb44bb43c6031ec256e",
+				"dweb:/ipfs/QmNc1jwNa2uz1AZ5NowLFRpHziKTFVrAzFjwF4KzJfdEDs"
+			]
+		}
+	},
+	"version": 1
+}

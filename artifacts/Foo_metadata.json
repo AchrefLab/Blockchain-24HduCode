@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": "Foo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": {
+			"keccak256": "0x0f87bf93fc89cefed18e02eaf265b133d1daaa44c5d0c3c71b74b3191fea7c40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://efd015bfb226de50f946d3a7720e02c95620b24f96316fa839e0ee67cbaf64df",
+				"dweb:/ipfs/QmQwebkawwv4pdjngr1KgzLj1rmbXwPkzTWP2Mnba5NJs9"
+			]
+		}
+	},
+	"version": 1
+}

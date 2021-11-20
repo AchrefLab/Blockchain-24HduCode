@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": "ReceiveEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/Exchange.sol": {
+			"keccak256": "0x325f8e80933ed850e05eb30e6c0f5a68cc362c370cd03e8e4308703e0152f1f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2401ef47ff3fb46471af3747dd81aa6fc8e37cfa868746618e04bdf609b73bca",
+				"dweb:/ipfs/QmNsysJQZaGQU74MdCBpBgy5oErm7q4jLBPQUE2Mqi7Ere"
+			]
+		}
+	},
+	"version": 1
+}

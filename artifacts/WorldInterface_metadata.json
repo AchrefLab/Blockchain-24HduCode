@@ -1,0 +1,266 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "adrEscouade",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "adrAvatar",
+						"type": "address"
+					}
+				],
+				"name": "appliquerEffetLieu",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					}
+				],
+				"name": "avatarExplore",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					}
+				],
+				"name": "estLieuValide",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					}
+				],
+				"name": "estOccupe",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "uint64",
+						"name": "codeAcces",
+						"type": "uint64"
+					}
+				],
+				"name": "explorer",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					}
+				],
+				"name": "getCoutLieu",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "lieu",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					}
+				],
+				"name": "quitter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"appliquerEffetLieu(uint16,address,address)": {
+					"params": {
+						"adrAvatar": "l'adresse du smarcontrat de l'avatar présent sur le lieu",
+						"adrEscouade": "l'adresse du smarcontract de l'escouade de l'avatar présent sur le lieu",
+						"lieu": "le numéro du lieu"
+					}
+				},
+				"avatarExplore(address)": {
+					"params": {
+						"avatar": "l'adresse du smartcontract de l'avatar"
+					},
+					"return": "vrai si l'avatar est en exploration d'un lieu du monde, faux dans le cas contraire"
+				},
+				"estLieuValide(uint16)": {
+					"params": {
+						"lieu": "le numéro du lieu"
+					},
+					"return": "vrai si le lieu existe, faux si ce n'est pas le cas"
+				},
+				"estOccupe(uint16)": {
+					"params": {
+						"lieu": "le numéro du lieu"
+					},
+					"return": "vrai si le lieu est occupé, faux s'il est libre."
+				},
+				"explorer(uint16,address,uint64)": {
+					"params": {
+						"avatar": "l'adresse du smartcontract de l'avatar",
+						"codeAcces": "le code d'accès au lieu, si le code est incorrect l'exploration echouera levant une erreur.",
+						"lieu": "le numéro du lieu à explorer"
+					},
+					"return": "un code d'accès à d'autres lieux"
+				},
+				"getCoutLieu(uint16)": {
+					"params": {
+						"lieu": "le numéro du lieu"
+					},
+					"return": "le coût du lieu en ether"
+				},
+				"quitter(uint16,address)": {
+					"params": {
+						"avatar": "l'adresse du smarcontract de l'avatar. Elle doit correspondre à celle de l'avatar présent sur le lieu, sinon un erreur sera levée.",
+						"lieu": "le numéro du lieu"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {
+				"appliquerEffetLieu(uint16,address,address)": {
+					"notice": "Applique l'effet du lieu si possible."
+				},
+				"avatarExplore(address)": {
+					"notice": "Vérifie si un avatar explore un lieu."
+				},
+				"estLieuValide(uint16)": {
+					"notice": "Vérifie si un lieu existe dans le monde."
+				},
+				"estOccupe(uint16)": {
+					"notice": "Vérifie si le lieu est occupé."
+				},
+				"explorer(uint16,address,uint64)": {
+					"notice": "Explore un lieu avec un avatar. (coûte des ethers suivant le lieu)"
+				},
+				"getCoutLieu(uint16)": {
+					"notice": "Donne le coût du lieu en ether."
+				},
+				"quitter(uint16,address)": {
+					"notice": "Fait quitter le lieu à un avatar."
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/WorldInterface.sol": "WorldInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/WorldInterface.sol": {
+			"keccak256": "0x95a648ec9fca79ec205ff37fc5e2edf154969d2de50ac4049eab3284056f56a0",
+			"urls": [
+				"bzz-raw://f6a7f43c2c220b3ea6fd654609c21c1bf166c2736a9ad280411503d4b7e33679",
+				"dweb:/ipfs/QmPNXRmZjuaSty8fuT9uuc1Qobf2LDVxLmWMtAvnfPL5yy"
+			]
+		}
+	},
+	"version": 1
+}

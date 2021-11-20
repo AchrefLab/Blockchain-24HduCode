@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"chooseNextAction(uint8,address,int256,address,int256)": {
+					"params": {
+						"avatar": "adresse de l'avatar courant",
+						"avatarAdv": "adresse de l'avatar adverse",
+						"damages": "blessures subites depuis le debut du combats",
+						"damagesAdv": "blessures subites depuis le debut du combats",
+						"previousAdvAction": "l'action précédente de l'avatar adverse"
+					},
+					"return": "l'action de l'avatar pour le tour courant"
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {
+				"chooseNextAction(uint8,address,int256,address,int256)": {
+					"notice": "Choisi l'action d'un avatar lors d'un tour d'un combat. "
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/ActionStrategy.sol": "ActionStrategy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/ActionStrategy.sol": {
+			"keccak256": "0xd2df051a2c8c75063a1717bf7376b7832c72e4e81491f18ce2a541b35d9f6700",
+			"urls": [
+				"bzz-raw://41e84d4655455667ae8c0984257568c6c3114b5929464811ec7aae6440e5d0c8",
+				"dweb:/ipfs/QmVwPQjfuSheUqM6S7voSYoT5FkCuKinYYfXKrE97Wwh3e"
+			]
+		}
+	},
+	"version": 1
+}

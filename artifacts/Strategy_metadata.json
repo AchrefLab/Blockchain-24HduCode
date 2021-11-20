@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/Strategie.sol": "Strategy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/ActionStrategy.sol": {
+			"keccak256": "0xd2df051a2c8c75063a1717bf7376b7832c72e4e81491f18ce2a541b35d9f6700",
+			"urls": [
+				"bzz-raw://41e84d4655455667ae8c0984257568c6c3114b5929464811ec7aae6440e5d0c8",
+				"dweb:/ipfs/QmVwPQjfuSheUqM6S7voSYoT5FkCuKinYYfXKrE97Wwh3e"
+			]
+		},
+		"Users/macbook/Desktop/Proxyma-24HduCode/AvatarInterface.sol": {
+			"keccak256": "0xcab0829af9bfbcf836704e7ccdc6f475c47c0305d0c005bf5dbfdda2a6189a45",
+			"urls": [
+				"bzz-raw://923ef5ef4f233319c173b1fff393b1dd12747a71a87fc779a87b31668737f518",
+				"dweb:/ipfs/QmTinMJDgRKgYee4Yy31Qv3n4JtYsY3TgViAmPEhS5SBa4"
+			]
+		},
+		"Users/macbook/Desktop/Proxyma-24HduCode/Strategie.sol": {
+			"keccak256": "0x8ad3f518a13b860f19d00afb67b1d01fdfeecc3c77a900f128b21e1ef60b0e77",
+			"urls": [
+				"bzz-raw://2227c624de4003eae9b5996249d416b5b185745c80cf8f3aa12720834dc193ff",
+				"dweb:/ipfs/QmX62JPzh3XPVPLGZwxZbzp29YqzYjSHzLEZcgF5YXMJ8a"
+			]
+		}
+	},
+	"version": 1
+}

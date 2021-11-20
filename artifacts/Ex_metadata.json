@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Users/macbook/Desktop/Proxyma-24HduCode/Exploration.sol": "ReceiveEther"
+			"Users/macbook/Desktop/Proxyma-24HduCode/Exploration.sol": "Ex"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Users/macbook/Desktop/Proxyma-24HduCode/Exploration.sol": {
-			"keccak256": "0x4422ee7ff17fe68af5ba7d1c2166bf3f522e636cc72e4d0968ccc6799f321c0d",
+			"keccak256": "0x650274cda02bbbeee7329181b15c1856bf609d9f6833b39713b209d54a940502",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f7914fc64cc5314466df33bd595286c40380c6bb8b8a309d69ff6e8e94e640a2",
-				"dweb:/ipfs/QmZJswVRZfMiPB7kr3X8XZjusaZt7RguypFMgYo5xv6SSe"
+				"bzz-raw://89c6631cfc1e61cd3d9fa23e714a08697106a8eb2900df70d55cbc39a70f340a",
+				"dweb:/ipfs/QmQtYEWjsCQ6sXae8fN5FoH9W6hD8p7BXY3V2mNiM7MWA9"
 			]
 		}
 	},

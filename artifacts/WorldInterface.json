@@ -1,0 +1,218 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"appliquerEffetLieu(uint16,address,address)": "06cd366e",
+			"avatarExplore(address)": "a55fa718",
+			"estLieuValide(uint16)": "3eb95194",
+			"estOccupe(uint16)": "556489f1",
+			"explorer(uint16,address,uint64)": "2e916916",
+			"getCoutLieu(uint16)": "7f43e692",
+			"quitter(uint16,address)": "00943fd3"
+		}
+	},
+	"abi": [
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				},
+				{
+					"internalType": "address",
+					"name": "adrEscouade",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "adrAvatar",
+					"type": "address"
+				}
+			],
+			"name": "appliquerEffetLieu",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "avatar",
+					"type": "address"
+				}
+			],
+			"name": "avatarExplore",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				}
+			],
+			"name": "estLieuValide",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				}
+			],
+			"name": "estOccupe",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				},
+				{
+					"internalType": "address",
+					"name": "avatar",
+					"type": "address"
+				},
+				{
+					"internalType": "uint64",
+					"name": "codeAcces",
+					"type": "uint64"
+				}
+			],
+			"name": "explorer",
+			"outputs": [
+				{
+					"internalType": "uint64",
+					"name": "",
+					"type": "uint64"
+				}
+			],
+			"payable": true,
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				}
+			],
+			"name": "getCoutLieu",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"internalType": "uint16",
+					"name": "lieu",
+					"type": "uint16"
+				},
+				{
+					"internalType": "address",
+					"name": "avatar",
+					"type": "address"
+				}
+			],
+			"name": "quitter",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

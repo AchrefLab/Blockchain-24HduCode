@@ -1,0 +1,267 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCaracteristiques",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "endurance",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "force",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "intelligence",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "vitesse",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDefenseMagique",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDefensePhysique",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getEsquive",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getNom",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getPuissanceMagique",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getPuissancePhysique",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getType",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getVie",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "strategie",
+						"type": "address"
+					}
+				],
+				"name": "modifierStrategieCombat",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"getCaracteristiques()": {
+					"return": "l'endurance, la force, l'intelligence et la vitesse"
+				},
+				"getDefenseMagique()": {
+					"return": "la valeur de défense magique"
+				},
+				"getDefensePhysique()": {
+					"return": "la valeur de défense physique"
+				},
+				"getEsquive()": {
+					"return": "la valeur d'esquive"
+				},
+				"getNom()": {
+					"return": "son nom"
+				},
+				"getPuissanceMagique()": {
+					"return": "la valeur de puissance magique"
+				},
+				"getPuissancePhysique()": {
+					"return": "la valeur de puissance physique"
+				},
+				"getType()": {
+					"return": "le nom du type d'avatar"
+				},
+				"getVie()": {
+					"return": "le nombre de points de vie"
+				},
+				"modifierStrategieCombat(address)": {
+					"params": {
+						"strategie": "l'adresse de la nouvelle stratégie de combat"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {
+				"getCaracteristiques()": {
+					"notice": "Donne les caractéristiques de l'avatar."
+				},
+				"getDefenseMagique()": {
+					"notice": "Donne la défense magique de l'avatar"
+				},
+				"getDefensePhysique()": {
+					"notice": "Donne la défense physique de l'avatar"
+				},
+				"getEsquive()": {
+					"notice": "Donne l'esquive de l'avatar"
+				},
+				"getNom()": {
+					"notice": "Donne le nom de l'avatar."
+				},
+				"getPuissanceMagique()": {
+					"notice": "Donne la puissance magique de l'avatar"
+				},
+				"getPuissancePhysique()": {
+					"notice": "Donne la puissance physique de l'avatar"
+				},
+				"getType()": {
+					"notice": "Donne le type de l'avatar."
+				},
+				"getVie()": {
+					"notice": "Donne la vie actuelle de l'avatar."
+				},
+				"modifierStrategieCombat(address)": {
+					"notice": "Modifie la stratégie de combat."
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macbook/Desktop/Proxyma-24HduCode/AvatarInterface.sol": "AvatarInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macbook/Desktop/Proxyma-24HduCode/AvatarInterface.sol": {
+			"keccak256": "0xcab0829af9bfbcf836704e7ccdc6f475c47c0305d0c005bf5dbfdda2a6189a45",
+			"urls": [
+				"bzz-raw://923ef5ef4f233319c173b1fff393b1dd12747a71a87fc779a87b31668737f518",
+				"dweb:/ipfs/QmTinMJDgRKgYee4Yy31Qv3n4JtYsY3TgViAmPEhS5SBa4"
+			]
+		}
+	},
+	"version": 1
+}

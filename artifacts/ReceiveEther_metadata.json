@@ -4,7 +4,29 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +40,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Users/macbook/Desktop/Proxyma-24HduCode/Exploration.sol": "ReceiveEther"
+			"Users/macbook/Desktop/Proxyma-24HduCode/Tribu.sol": "ReceiveEther"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +54,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Users/macbook/Desktop/Proxyma-24HduCode/Exploration.sol": {
-			"keccak256": "0x4422ee7ff17fe68af5ba7d1c2166bf3f522e636cc72e4d0968ccc6799f321c0d",
+		"Users/macbook/Desktop/Proxyma-24HduCode/Tribu.sol": {
+			"keccak256": "0x3b37f2e7484bf08395e59f78783885e648e0b5914080bcfcdee8719d3905917a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f7914fc64cc5314466df33bd595286c40380c6bb8b8a309d69ff6e8e94e640a2",
-				"dweb:/ipfs/QmZJswVRZfMiPB7kr3X8XZjusaZt7RguypFMgYo5xv6SSe"
+				"bzz-raw://edb28ef6c9ea250700d67be27664e11e911eb3965ac6dde4ed273b51622b7c60",
+				"dweb:/ipfs/QmbZgDxyf6NWcuwXwwmuEAPhLu3fs3ujv7NN1knsXge8fX"
 			]
 		}
 	},
